@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://sa-c.net/images/stories/zenica_panorama.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.cijelitekst {
+    background-color: whitesmoke;
+    opacity: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    border-radius: 2%;
+    padding: 1%;
+    width: 40%;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-color: green;
+    padding: 4%;
+}
+#prviparagraf {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: left;
+}
+#drugiparagraf {
+    font-style: normal;
+    font-size: 18px;
+    text-align: left;
+}
+img {
+    margin-top: 5%;
+    width: 15%;
+}
+/*footer {
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    margin: 2% auto;
+    padding: 0 10px;
+    opacity: 70%;
+}*/

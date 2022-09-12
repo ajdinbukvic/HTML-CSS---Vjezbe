@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.zaglavlje {
+    height: 150px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.centralnidio {
+    background-image: url("https://i.ibb.co/JcRDtvJ/student-cb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 853px;
+}
+h1 {
+    margin-right: 100px;
+    line-height: 150px;
+    font-size: 30px;
+    height: 150px;
+    text-align: right;
+}
+img {
+    padding-top: 8px;
+    margin-left: 40px;
+    width: 120px;
+    align-items: left;
+}
+.tridugmeta {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+}
+.dugme1:hover {
+    background-color: black;
+    color: lightblue;
+}
+.dugme1 {
+    width: 33.3333%;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: brown;
+}
+.dugme1:hover {
+    background-color: black;
+    color: lightblue;
+}
+.dugme2 {
+    width: 33.3333%;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: orange;
+}
+.dugme2:hover {
+    background-color: black;
+    color: lightblue;
+}
+.dugme3 {
+    width: 33.3333%;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: blue;
+}
+.dugme3:hover {
+    background-color: black;
+    color: lightblue;
+}
+.page {
+    width: 70%;
+    height: 630px;
+    margin: auto auto 20px auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+}
+.lmenu {
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: red;
+    opacity: 50%;
+    width: 30%;
+    height: 400px;
+    margin-right: 2%;
+   
+}
+.content {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 68%;
+    height: 607px;
+    background-color: blue;
+    opacity: 50%;
+}
+.footer {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bolder;
+    height: 203px;
+    background-color: rgba(184,184,184,0.8)
+}

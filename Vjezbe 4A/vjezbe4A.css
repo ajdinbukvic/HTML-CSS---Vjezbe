@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.traka1 {
+    background-color: #c9674c;
+    height: 125px;
+}
+#logo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0px auto;
+}
+.traka2 {
+    height: 80px;
+    background-color: #db9987;
+    color: #9a462e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.home {
+    margin-left: 25px;
+}
+.nastava {
+    margin-left: 25px;
+}
+.kontakt {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.home:hover {
+    color: white
+}
+.nastava:hover {
+    color: white
+}
+.kontakt:hover {
+    color: white
+}
+.kontenjer {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #f6e7e3;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#slika {
+    width: 300px;
+    order: -1;
+    margin-bottom: 60px;
+}
+.tekst {
+    order:0;
+    margin-left: 20px;
+}
+.slikatekst {
+    display: flex;
+    margin-bottom: -20px;
+}
+.tekst2 {
+    order: 1;
+    margin-bottom: 10px;
+}

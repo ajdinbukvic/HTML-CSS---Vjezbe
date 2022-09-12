@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sekcija {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naslov1 {
+    background-color: #f7c500;
+    color: red;
+    height: 100px;
+}
+.naslov2 {
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+.tekst {
+    height: 250px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: #000;
+}
+.slike {
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.slika img {
+    padding: 10px;
+    width: 320px;
+    height: 230px;
+}
+.footer {
+    background-color: black;
+    height: 80px;
+    color: white;
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .naslov2 {
+        margin-bottom: 10px;
+    }
+    .slike {
+        background-color: #f7f7f7;
+        margin-bottom: 10px;
+        order: 0;
+    }
+    .tekst {
+        order: 1;
+    }
+    .footer {
+	    order: 2;
+    }
+    .slika {
+        width: 50%;
+        border: 1px solid black;
+        padding: 5px 30px;
+    }
+    .slika img {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 961px) {
+    .page {
+        width: 960px;
+        margin: 0px auto;
+    }
+    .slike {
+        height: auto;
+    }
+    .slika img {
+        padding: 0px;
+    }
+    .slika4 {
+        display: none;
+    }
+}
